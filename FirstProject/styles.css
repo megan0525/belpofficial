@@ -8,7 +8,7 @@ body,html {
 }
 
 .HomeBody{
-    background-image: url(/pictures/homebackground.jpg); 
+    background-image: url(pictures/homebackground.jpg); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -308,4 +308,5 @@ a:hover{
     border-radius: 15px;
     background-color: #1f9cdb;
     color: #5933e2;
+
 }
