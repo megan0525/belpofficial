@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+.HomeBody{
+    background-image: url(/pictures/homebackground.jpg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: "sofia-pro-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2, h3, .contactheaders, a{
+    font-family: "sofia-pro-soft", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4, p, button{
+    font-family: "sofia-pro-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbar{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    text-decoration: #221CEB;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.HomeTitles{
+    color: #A8C7DE;
+}
+
+.searchinputs{
+    margin: 20;
+    padding: 0;
+    width: 400px;
+    height: 50px;
+}
+
+#submit{
+    padding: 11px 10px;
+    margin: 0px 0px 0px -32px;
+    display: inline-flex;
+    width: 20;
+    text-align: center;
+    border: 1px;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background: #2196F3;   
+}
+
+#searchsubmit{
+    padding: 10px 10px;
+    margin: -34px -335px 0px 0px;
+    display: inline-block;
+    vertical-align: right;
+    width: 20;
+    text-align: center;
+    border: 1px;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background: #2196F3;   
+}
+
+#searchbar{
+    width: auto;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#searchhomebar{
+    float: left;
+}
+
+.loginbutton{
+    padding: 15px 60px;
+    margin: 0px 20px 20px 0px;
+    justify-content: center;
+    right: 0;
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    display: flex;
+    text-align: center;
+    border-radius: 15px;
+    color: #A8C7DE;
+    background-color: #1f9cdb;
+}
+
+#logomark{
+    width: 50px;
+}
+
+.searchhome{
+    margin: 0 auto;
+    padding: 260px 60px;
+}
+
+.contactform{
+    margin: 20px 0px 0px 450px;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    width: 40%;
+    height: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forminfo{
+    margin: 0px 0px 0px -100px;
+    padding: 20px;
+    height: 50%;
+    width: 90%;
+    
+}
+
+#name,#email, #message, #sendbutton{
+    margin: 10px 0px ;
+}
+
+#sendbutton{
+    display: flex;
+    margin: 0px 0px 20px 500px;
+    padding: 10px 20px;
+    width: 20%;
+}
+
+.contactheaders{
+    display: flex;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+#message{
+    width: 600px;
+}
+
+.FAQcontainer{
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color:red; */
+    width: 50%;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQlist{
+    margin: 0px 30px 0px 0px;
+}
+
+.panel{
+    margin: 0;
+    padding: 0px 0px 10px 50px;
+}
+
+.searchmain{
+    margin: 0 auto;
+    padding: 0;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurantlisting{
+    width: 100%;
+    min-width: 600px;
+    height: 200px;
+    margin: 30px 30px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#searhbar{
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+.restaurantimage{
+    margin: 0px 20px;
+    padding: 20px 2;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#resultimage{
+    margin: 0px 20px 10px 100px;
+    padding: 0;
+    width: 400px;
+    height: auto;
+    border-width: 3px;
+}
+
+.businessinfo{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 32%;
+    height: 70%;
+    display: inline-block;
+}
+
+.businessinfostuff{
+    margin: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 0px;
+}
+
+.ratingsblock{
+    width: 1000px;
+    height: 350px;
+    margin: 0px 0px 0px 28px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#ratingchart{
+    margin: -20px 0px 0px -10px;
+    padding: 0 20 0;
+    width: 350px;
+    height: 340px;
+    display: inline-block;
+}
+
+.description{
+    padding: 0px 0px 0px 0px;
+    margin: -300px 0px 0px 530px;
+    width: 680px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#resultratings{
+    float: left;
+    margin: -20px 0px 0px 0px;
+    padding: 0px, 20px, 0px;
+}
+
+#resultreviews{
+    width: 400px;
+    margin: -20px 0px 0px 400px;
+}
+
+#reviewviewall{
+    margin: 0px 0px 0px 330px;
+    padding: 0 auto;
+    width: 70px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #1f9cdb;
+    color: #5933e2;
+}
+
+.userreview{
+    margin: -80px 0px 20px 80px;
+    padding: 0px 0px 0px 0px;
+}
+
+#userpicture{
+    margin: 0;
+    padding: 0;
+    width: 65px;
+    height: auto;
+}
+
+#reviewstar{
+    margin: -60px 0px 40px 0px;
+    padding: 0px 0px 45px 80px;
+}
+
+.nextbutton{
+    margin: 10px 0px 0px 700px;
+    padding: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #1f9cdb;
+    color: #5933e2;
+}

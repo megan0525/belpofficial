@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qgy2mjz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <!--I want to try mainly using images to learn proper padding and blocking-->
+    <div class="topbar">
+        <!--Create a logomark and add it to imgs folder to link-->
+        <img id="logomark" src="/pictures/belplogo.png">
+        <h2><a href="Home.html">Home</a></h2>
+        <h2><a href="Search.html">Search</a></h2>
+        <h2><a href="Contact.html">Contact</a></h2>
+        <h2><a href="FAQ.html">FAQ</a></h2>
+        <div class="loginbutton">
+            <a href="#">Login</a>
+        </div>
+    </div>
+    <div class="searchmain">
+        <input type="text" id="searchbar" size="50" style="height: 34px" placeholder="Search Restaurant" name="search">
+        <button type="submit" id="searchsubmit" value="Search"><i class="fa fa-search"></i></button>
+        <form action="Resulttemplate.html">
+            <div class="restaurantlisting">
+                <!--Picture of restaurant-->
+                <img class="restaurantimage" src="/pictures/houseofprimerib.jpg" alt="House_of_Prime_Rib">
+                <!--Name of restaurant-->
+                <h3><a href="Result.html">House of Prime Rib</a></h3>
+                <!--Ratings-->
+                <h4>4.7 Stars</h4>
+                <h4>1906 Van Ness Ave, San Francisco, CA 94109</h4>
+                <!--Just manually put the dollar signs. The typeface will be the styling-->
+                <h4>&#36;50-100</h4>
+                <!--Some information can be typed out manually-->
+                <h4>Opens 4:00 PM</h4>
+            </div>
+            <div class="restaurantlisting">
+                <!--Picture of restaurant-->
+                <img class="restaurantimage" src="/pictures/beachchalet.jpg" alt="Beach_Chalet">
+                <!--Name of restaurant-->
+                <h3><a href="#">Beach Chalet</a></h3>
+                <!--Ratings-->
+                <h4>4.1 Stars</h4>
+                <h4>1000 Great Hwy, San Francisco, CA 94121</h4>
+                <!--Just manually put the dollar signs. The typeface will be the styling-->
+                <h4>&#36;30-50</h4>
+                <!--Some information can be typed out manually-->
+                <h4>Opens 10:00 AM</h4>
+            </div>
+            <div class="restaurantlisting">
+                <!--Picture of restaurant-->
+                <img class="restaurantimage" src="/pictures/seniorsisig.jpg" alt="Senor_Sisig">
+                <!--Name of restaurant-->
+                <h3><a href="#">Senor Sisig</a></h3>
+                <!--Ratings-->
+                <h4>4.5 Stars</h4>
+                <h4>990 Valencia St, San Francisco, CA 94110</h4>
+                <!--Just manually put the dollar signs. The typeface will be the styling-->
+                <h4>&#36;10-20</h4>
+                <!--Some information can be typed out manually-->
+                <h4>Opens 11:00 AM</h4>
+            </div>
+            <div class="restaurantlisting">
+                <!--Picture of restaurant-->
+                <img class="restaurantimage" src="/pictures/hinodeyaramen.jpg" alt="Hinodeya_Ramen">
+                <div></div>
+                <!--Name of restaurant-->
+                <h3><a href="#">Hinodeya Ramen</a></h3>
+                <!--Ratings-->
+                <h4>4.5 Stars</h4>
+                <h4>1737 Buchanan St, San Francisco, CA 94115</h4>
+                <!--Just manually put the dollar signs. The typeface will be the styling-->
+                <h4>&#36;20-30</h4>
+                <!--Some information can be typed out manually-->
+                <h4>Opens 10:00 AM</h4>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
